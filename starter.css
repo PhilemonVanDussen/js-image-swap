@@ -19,7 +19,33 @@
 
 }
 
+#model-frame {
+  cursor: pointer;
+  width: 450px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
 
+body {
+  height: 100vh;
+  align-items: center;
+  justify-items: center;
+  background-color: rgb(63, 171, 204);
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 1px black;
+}
 
+#model-frame:hover pseudo-class {
+  transform: scale(1.02s);
+}
 
-
+h2 {
+  margin: 0;
+  color: red;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
